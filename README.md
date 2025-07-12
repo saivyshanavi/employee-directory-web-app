@@ -18,13 +18,13 @@ All data is stored in memory using `localStorage` — no backend required.
 ## 🚀 How to Run
 
 ### Prerequisites:
-- Java 17+
+- Java 20+
 - Maven 3.6+
 
 ### Steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/employee-directory.git
+   https://github.com/saivyshanavi/employee-directory-web-app.git
    cd employee-directory
    ```
 

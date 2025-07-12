@@ -15,6 +15,11 @@ All data is stored in memory using `localStorage` — no backend required.
 
 ---
 
+## 🚀 Live Demo
+
+Click here to view the live project: [Live Demo](https://employee-directory-web-app.vercel.app/output.html)
+
+
 ## 🚀 How to Run
 
 ### Prerequisites:

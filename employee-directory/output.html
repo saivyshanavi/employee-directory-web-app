@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+
+    <div class="dashboard-header">
+      <h1>Employee Directory</h1>
+      <button onclick="window.location.href='form.html'" class="btn-add">Add Employee</button>
+    </div>
+
+    <!--  Search + Filters -->
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search by name or email" />
+
+      <select id="filterDepartment">
+        <option value="">All Departments</option>
+        <option value="HR">HR</option>
+        <option value="IT">IT</option>
+        <option value="Finance">Finance</option>
+      </select>
+
+      <select id="filterRole">
+        <option value="">All Roles</option>
+        <option value="Manager">Manager</option>
+        <option value="Developer">Developer</option>
+        <option value="Analyst">Analyst</option>
+      </select>
+
+      <select id="sortBy">
+        <option value="">Sort by</option>
+        <option value="firstNameAsc">Name A–Z</option>
+        <option value="firstNameDesc">Name Z–A</option>
+        <option value="departmentAsc">Department A–Z</option>
+      </select>
+    </div>
+
+    <!--  Pagination Controls -->
+<div class="pagination-controls">
+  <label for="itemsPerPage">Items per page:</label>
+  <select id="itemsPerPage">
+    <option value="10" selected>10</option>
+    <option value="25">25</option>
+    <option value="50">50</option>
+  </select>
+</div>
+
+<div id="paginationButtons" class="pagination-buttons"></div>
+
+
+    <!--  Cards Injected by JS -->
+    <div id="employeeList" class="card-grid"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

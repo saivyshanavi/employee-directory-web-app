@@ -1,92 +1,100 @@
-# employee-directory-web-app
+# 💼 Employee Directory Web App
 
-🚀 1. Setup & Run Instructions
-📦 Prerequisites
-Java 17+
+A responsive and interactive employee directory built with **HTML**, **CSS**, **JavaScript**, and **Freemarker** templates.
 
-Maven 3.6+
+Users can:
+- Add new employees
+- Edit existing employees
+- Delete employees
+- Search by name or email
+- Filter by department or role
+- Sort by first name or department
+- Paginate through employee records
 
-A basic Freemarker setup (no backend logic, only file rendering)
+All data is stored in memory using `localStorage` — no backend required.
 
-▶️ How to Run
-Clone the repository:
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/employee-directory.git
-cd employee-directory
-Compile and render HTML using Freemarker:
+## 🚀 How to Run
 
-bash
-Copy
-Edit
-mvn compile
-mvn exec:java
-Open the generated files in browser:
+### Prerequisites:
+- Java 17+
+- Maven 3.6+
 
-src/main/resources/output.html → Dashboard
+### Steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/employee-directory.git
+   cd employee-directory
+   ```
 
-src/main/resources/form.html → Add/Edit Employee form
+2. Compile and run the project:
+   ```bash
+   mvn compile
+   mvn exec:java
+   ```
 
-📁 2. Project Structure
-bash
-Copy
-Edit
+3. Open the rendered HTML pages in your browser:
+   - `src/main/resources/output.html` → Main Dashboard
+   - `src/main/resources/form.html` → Add/Edit Form Page
+
+---
+
+## 📁 Project Structure
+
+```
 employee-directory/
 ├── src/
-│   ├── main/
-│   │   ├── java/com/ajackus/App.java     # Renders Freemarker templates
-│   │   ├── resources/
-│   │   │   ├── templates/
-│   │   │   │   ├── dashboard.ftl         # Dashboard template
-│   │   │   │   ├── form.ftl              # Add/Edit form template
-│   │   │   ├── static/
-│   │   │   │   ├── css/style.css         # All UI styling
-│   │   │   │   ├── js/data.js            # Mock employee data & storage
-│   │   │   │   ├── js/app.js             # Dashboard JS (search, filter, sort, pagination)
-│   │   │   │   ├── js/form.js            # Form logic (add/edit, validation)
-│   │   │   ├── output.html               # Rendered dashboard
-│   │   │   ├── form.html                 # Rendered form
-🖼 3. Screenshots
-Include screenshots of the following:
+│   └── main/
+│       ├── java/
+│       │   └── com/ajackus/App.java          # Java code to render Freemarker templates
+│       ├── resources/
+│       │   ├── templates/
+│       │   │   ├── dashboard.ftl             # Freemarker template for dashboard
+│       │   │   ├── form.ftl                  # Freemarker template for add/edit form
+│       │   ├── static/
+│       │   │   ├── css/style.css             # All styling (responsive layout, cards, form)
+│       │   │   ├── js/data.js                # Initial employee data and localStorage handling
+│       │   │   ├── js/app.js                 # Dashboard logic: render, search, filter, sort, pagination
+│       │   │   ├── js/form.js                # Form logic: prefill, add, edit, validation
+│       │   ├── output.html                   # Rendered dashboard (by Freemarker)
+│       │   ├── form.html                     # Rendered form (by Freemarker)
+```
 
-Desktop Dashboard with search/filter/sort/pagination
+---
 
-Mobile Responsive View
+## 📸 Screenshots
 
-Add Employee Form
+> *(Add images in a `/screenshots` folder and link them here)*
 
-Edit Employee Form
+### ✅ Desktop Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-Filter Panel
+### ✅ Form (Add/Edit Employee)
+![Form](screenshots/form.png)
 
-Embed or link them below as needed:
+### ✅ Responsive (Mobile View)
+![Mobile](screenshots/mobile.png)
 
-scss
-Copy
-Edit
-![Dashboard View](screenshots/dashboard.png)
-![Form View](screenshots/form.png)
-![Mobile View](screenshots/mobile.png)
-💭 4. Reflection
-✅ Challenges Faced
-Integrating pagination alongside filter/sort/search dynamically.
+---
 
-Styling a fully responsive layout for mobile/tablet screens.
+## 💬 Reflection
 
-Dynamically syncing form data with JavaScript without any backend API.
+### ⚠️ Challenges Faced
+- Coordinating multiple filters, sorting, and pagination in memory.
+- Managing dynamic DOM rendering from JavaScript efficiently.
+- Pre-filling form data during edit and handling validation without backend.
 
-Handling localStorage for CRUD operations.
+### 💡 Improvements If Given More Time
+- Use React or a frontend framework to better handle UI state.
+- Add CSV export and file import for employee data.
+- Add accessibility support (ARIA labels, keyboard navigation).
+- Enhance styling with animation or theme switcher.
 
-🛠️ What I'd Improve
-Use a module bundler (like Vite or Webpack) for better dev workflow.
+---
 
-Add animations or transitions to cards and form states.
+## 🙌 Acknowledgements
 
-Expand form validation using inline error labels instead of alerts.
+This project was completed as part of a frontend development evaluation for Ajackus. Built using open web standards and Freemarker for templating.
 
-Make filtering options collapsible on smaller screens.
-
-Add role-based filtering or export to CSV.
-
+---

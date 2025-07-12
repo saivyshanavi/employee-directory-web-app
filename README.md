@@ -65,7 +65,7 @@ employee-directory/
 
 ## 📸 Screenshots
 
-> *(Add images in a `/screenshots` folder and link them here)*
+> *Project Screenshots*
 
 ### ✅ Desktop Dashboard
 ![Dashboard](screenshots/d<img width="1915" height="970" alt="Screenshot 2025-07-12 233244" src="https://github.com/user-attachments/assets/56424bf9-ba50-406a-a5d1-0c031613153a" />
@@ -82,7 +82,11 @@ rm.png)
 mobile.png)
 <img width="1905" height="975" alt="Screenshot 2025-07-12 233555" src="https://github.com/user-attachments/assets/8d66d4ad-1c52-48a4-ad76-ae9668fc4b2a" />
 
----
+### ✅ Filter 
+[filter]<img width="1904" height="963" alt="Screenshot 2025-07-12 234328" src="https://github.com/user-attachments/assets/ca8fc659-5f92-4c7f-beba-b05aeea2b353" /> 
+
+### ✅ Pagination 
+[pagination]<img width="1911" height="973" alt="Screenshot 2025-07-12 234504" src="https://github.com/user-attachments/assets/9c11cc8b-d544-4ff6-ad23-19d01e9b7d0c" />
 
 ## 💬 Reflection
 

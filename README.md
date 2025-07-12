@@ -24,7 +24,7 @@ All data is stored in memory using `localStorage` — no backend required.
 ### Steps:
 1. Clone the repository:
    ```bash
-   https://github.com/saivyshanavi/employee-directory-web-app.git
+   git clone https://github.com/saivyshanavi/employee-directory-web-app.git
    cd employee-directory
    ```
 

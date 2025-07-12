@@ -72,10 +72,15 @@ employee-directory/
 ashboard.png)
 
 ### ✅ Form (Add/Edit Employee)
-![Form](screenshots/form.png)
+![Form](screenshots/fo<img width="1911" height="962" alt="Screenshot 2025-07-12 233353" src="https://github.com/user-attachments/assets/d53336ae-f15e-4e8c-a870-3add52295f6d" />
+rm.png)
+<img width="1901" height="972" alt="Screenshot 2025-07-12 233424" src="https://github.com/user-attachments/assets/7088a24b-06fb-460c-9da8-d79051037fe5" />
+
 
 ### ✅ Responsive (Mobile View)
-![Mobile](screenshots/mobile.png)
+![Mobile](screenshots/<img width="1914" height="982" alt="Screenshot 2025-07-12 233542" src="https://github.com/user-attachments/assets/23686530-416c-4b33-95cc-c1a13a1b44e1" />
+mobile.png)
+<img width="1905" height="975" alt="Screenshot 2025-07-12 233555" src="https://github.com/user-attachments/assets/8d66d4ad-1c52-48a4-ad76-ae9668fc4b2a" />
 
 ---
 

@@ -68,7 +68,8 @@ employee-directory/
 > *(Add images in a `/screenshots` folder and link them here)*
 
 ### ✅ Desktop Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/d<img width="1915" height="970" alt="Screenshot 2025-07-12 233244" src="https://github.com/user-attachments/assets/56424bf9-ba50-406a-a5d1-0c031613153a" />
+ashboard.png)
 
 ### ✅ Form (Add/Edit Employee)
 ![Form](screenshots/form.png)

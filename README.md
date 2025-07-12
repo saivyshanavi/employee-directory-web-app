@@ -86,7 +86,13 @@ mobile.png)
 [filter]<img width="1904" height="963" alt="Screenshot 2025-07-12 234328" src="https://github.com/user-attachments/assets/ca8fc659-5f92-4c7f-beba-b05aeea2b353" /> 
 
 ### ✅ Pagination 
-[pagination]<img width="1911" height="973" alt="Screenshot 2025-07-12 234504" src="https://github.com/user-attachments/assets/9c11cc8b-d544-4ff6-ad23-19d01e9b7d0c" />
+[pagination]<img width="1911" height="973" alt="Screenshot 2025-07-12 234504" src="https://github.com/user-attachments/assets/9c11cc8b-d544-4ff6-ad23-19d01e9b7d0c" /> 
+
+## 📽️ Screen Recording
+
+Here’s a short screen recording of the project in action:
+
+![Project Demo] (https://drive.google.com/file/d/1Sw11oVbCSLuZ-CDu7X2yApprU8NfcEGW/view?usp=sharing)
 
 ## 💬 Reflection
 
